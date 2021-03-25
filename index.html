@@ -5,6 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Four Card Feature Section</title>
 	</head>
 	<body>
@@ -19,12 +25,45 @@
 			</header>
 
 			<section class="cards">
-				<div class="cards__card cards__card--cyan"></div>
-				<div class="vertical-cards">
-					<div class="cards__card cards__card--red"></div>
-					<div class="cards__card cards__card--orange"></div>
+				<div class="card card--cyan">
+					<h3 class="card__title">Supervisor</h3>
+					<p class="card__description">
+						Monitors activity to identify project roadblocks
+					</p>
+					<svg class="card__icon">
+						<use xlink:href="./SVG/icon-supervisor.svg"></use>
+					</svg>
 				</div>
-				<div class="cards__card cards__card--blue"></div>
+				<div class="vertical-cards">
+					<div class="card card--red">
+						<h3 class="card__title">Team Builder</h3>
+						<p class="card__description">
+							Scans our talent network to create the optimal team for your
+							project
+						</p>
+						<svg class="card__icon">
+							<use xlink:href="./SVG/icon-team-builder.svg"></use>
+						</svg>
+					</div>
+					<div class="card card--orange">
+						<h3 class="card__title">Karma</h3>
+						<p class="card__description">
+							Regularly evaluates our talent to ensure quality
+						</p>
+						<svg class="card__icon">
+							<use xlink:href="./SVG/icon-karma.svg"></use>
+						</svg>
+					</div>
+				</div>
+				<div class="card card--blue">
+					<h3 class="card__title">Calculator</h3>
+					<p class="card__description">
+						Uses data from past projects to provide better delivery estimates
+					</p>
+					<svg class="card__icon">
+						<use xlink:href="./SVG/icon-calculator.svg"></use>
+					</svg>
+				</div>
 			</section>
 		</section>
 	</body>
